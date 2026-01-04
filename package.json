@@ -1,0 +1,25 @@
+{
+  "name": "gov-scheme-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elavagkt-prog/gdc-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/elavagkt-prog/gdc-project/issues"
+  },
+  "homepage": "https://github.com/elavagkt-prog/gdc-project#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.1.1"
+  }
+}
