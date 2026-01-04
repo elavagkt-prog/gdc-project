@@ -29,15 +29,9 @@ if (!MONGODB_URI) {
 }
 
 mongoose
-  .connect(MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(MONGODB_URI)
   .then(() => console.log("MongoDB connected"))
-  .catch((err) => {
-    console.error("MongoDB connection error:", err);
-    process.exit(1);
-  });
+  .catch(err => console.error("MongoDB connection error:", err));
 
 // PORT
 const PORT = process.env.PORT || 5000;
