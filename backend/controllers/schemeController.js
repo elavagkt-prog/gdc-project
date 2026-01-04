@@ -1,10 +1,13 @@
-const Scheme = require("../models/Scheme");
+// if your file is scheme.js (lowercase)
+// lowercase to match filename
+const Scheme = require('../models/scheme');  
 const { recommendSchemes } = require("../services/recommendationService");
 
 // ===== Test Route =====
 exports.testRoute = (req, res) => {
   res.json({ message: "API is working!" });
 };
+
 
 // ===== Add Scheme =====
 exports.addScheme = async (req, res) => {
